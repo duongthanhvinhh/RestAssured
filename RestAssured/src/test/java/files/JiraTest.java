@@ -18,7 +18,7 @@ public class JiraTest {
         SessionFilter session = new SessionFilter();
         String response = given().relaxedHTTPSValidation().header("Content-Type", "application/json").body("{\n" +
                 "    \"username\": \"vinhdtvt1999\",\n" +
-                "    \"password\": \"Nguyentramy@19995\"\n" +
+                "    \"password\": \"incorrectPwd\"\n" +
                 "}").log().all().filter(session).when().post("/rest/auth/1/session").then().log().all().extract().response().asString();
         String expectedMessage = "That's a good defect. Please help to also add the affected version. Thanks";
         //Add comment
