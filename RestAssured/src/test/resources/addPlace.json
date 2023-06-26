@@ -1,0 +1,16 @@
+{
+  "location": {
+    "lat": -12.383494,
+    "lng": 13.427362
+  },
+  "accuracy": 50,
+  "name": "White house",
+  "phone_number": "(+91) 88887898",
+  "address": "212, Pham Van Dong, HCM city",
+  "types": [
+    "T-Shirt store",
+    "shop"
+  ],
+  "website": "http://google.com/T-shirt/cheapest/",
+  "language": "ENG-IN"
+}
